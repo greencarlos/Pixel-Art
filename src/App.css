@@ -1,0 +1,45 @@
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+	margin: 0 5rem;
+	padding: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+.selector {
+	padding: 1rem 4rem;
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
+	border-radius: 50px;
+	background-color: rgb(49, 46, 45);
+	box-shadow: 1px 1px 1px 1px rgb(22, 22, 22);
+	width: 50%;
+	margin-bottom: 2rem;
+}
+.selector select {
+	padding: 5px;
+	border-radius: 50px;
+}
+.pixelGrid {
+	width: 75vw;
+	height: 75vh;
+	display: grid;
+	border: solid 5px rgb(228, 65, 15);
+	box-shadow: 1px 1px 3px 2px rgb(22, 22, 22);
+}
+.pixel {
+	border: solid 1px #eee;
+	box-sizing: border-box;
+}
+button {
+	background-color: rgb(49, 46, 45);
+	padding: 1rem;
+	width: 20%;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	margin: 1rem;
+	box-shadow: 1px 1px 1px 1px rgb(22, 22, 22);
+}
